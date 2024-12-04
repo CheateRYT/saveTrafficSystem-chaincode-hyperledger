@@ -6,7 +6,7 @@
 
 "use strict";
 
-const assetTransfer = require("./lib/saveTrafficSystem");
+const saveTrafficSystem = require("./lib/saveTrafficSystem.js");
 
-module.exports.SafeTrafficSystem = saveTrafficSystem;
+module.exports.safeTrafficSystem = saveTrafficSystem;
 module.exports.contracts = [saveTrafficSystem];
